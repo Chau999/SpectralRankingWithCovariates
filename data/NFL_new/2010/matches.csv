@@ -1,0 +1,268 @@
+,schedule_season,team_home,score_home,score_away,team_away
+10008,2010,New Orleans Saints,14.0,9.0,Minnesota Vikings
+10009,2010,Buffalo Bills,10.0,15.0,Miami Dolphins
+10010,2010,Chicago Bears,19.0,14.0,Detroit Lions
+10011,2010,Houston Texans,34.0,24.0,Indianapolis Colts
+10012,2010,Jacksonville Jaguars,24.0,17.0,Denver Broncos
+10013,2010,New England Patriots,38.0,24.0,Cincinnati Bengals
+10014,2010,New York Giants,31.0,18.0,Carolina Panthers
+10015,2010,Philadelphia Eagles,20.0,27.0,Green Bay Packers
+10016,2010,Pittsburgh Steelers,15.0,9.0,Atlanta Falcons
+10017,2010,Seattle Seahawks,31.0,6.0,San Francisco 49ers
+10018,2010,St. Louis Rams,13.0,17.0,Arizona Cardinals
+10019,2010,Tampa Bay Buccaneers,17.0,14.0,Cleveland Browns
+10020,2010,Tennessee Titans,38.0,13.0,Oakland Raiders
+10021,2010,Washington Redskins,13.0,7.0,Dallas Cowboys
+10022,2010,Kansas City Chiefs,21.0,14.0,San Diego Chargers
+10023,2010,New York Jets,9.0,10.0,Baltimore Ravens
+10024,2010,Atlanta Falcons,41.0,7.0,Arizona Cardinals
+10025,2010,Carolina Panthers,7.0,20.0,Tampa Bay Buccaneers
+10026,2010,Cincinnati Bengals,15.0,10.0,Baltimore Ravens
+10027,2010,Cleveland Browns,14.0,16.0,Kansas City Chiefs
+10028,2010,Dallas Cowboys,20.0,27.0,Chicago Bears
+10029,2010,Denver Broncos,31.0,14.0,Seattle Seahawks
+10030,2010,Detroit Lions,32.0,35.0,Philadelphia Eagles
+10031,2010,Green Bay Packers,34.0,7.0,Buffalo Bills
+10032,2010,Indianapolis Colts,38.0,14.0,New York Giants
+10033,2010,Minnesota Vikings,10.0,14.0,Miami Dolphins
+10034,2010,New York Jets,28.0,14.0,New England Patriots
+10035,2010,Oakland Raiders,16.0,14.0,St. Louis Rams
+10036,2010,San Diego Chargers,38.0,13.0,Jacksonville Jaguars
+10037,2010,Tennessee Titans,11.0,19.0,Pittsburgh Steelers
+10038,2010,Washington Redskins,27.0,30.0,Houston Texans
+10039,2010,San Francisco 49ers,22.0,25.0,New Orleans Saints
+10040,2010,Arizona Cardinals,24.0,23.0,Oakland Raiders
+10041,2010,Baltimore Ravens,24.0,17.0,Cleveland Browns
+10042,2010,Carolina Panthers,7.0,20.0,Cincinnati Bengals
+10043,2010,Denver Broncos,13.0,27.0,Indianapolis Colts
+10044,2010,Houston Texans,13.0,27.0,Dallas Cowboys
+10045,2010,Jacksonville Jaguars,3.0,28.0,Philadelphia Eagles
+10046,2010,Kansas City Chiefs,31.0,10.0,San Francisco 49ers
+10047,2010,Miami Dolphins,23.0,31.0,New York Jets
+10048,2010,Minnesota Vikings,24.0,10.0,Detroit Lions
+10049,2010,New England Patriots,38.0,30.0,Buffalo Bills
+10050,2010,New Orleans Saints,24.0,27.0,Atlanta Falcons
+10051,2010,New York Giants,10.0,29.0,Tennessee Titans
+10052,2010,Seattle Seahawks,27.0,20.0,San Diego Chargers
+10053,2010,St. Louis Rams,30.0,16.0,Washington Redskins
+10054,2010,Tampa Bay Buccaneers,13.0,38.0,Pittsburgh Steelers
+10055,2010,Chicago Bears,20.0,17.0,Green Bay Packers
+10056,2010,Atlanta Falcons,16.0,14.0,San Francisco 49ers
+10057,2010,Buffalo Bills,14.0,38.0,New York Jets
+10058,2010,Cleveland Browns,23.0,20.0,Cincinnati Bengals
+10059,2010,Green Bay Packers,28.0,26.0,Detroit Lions
+10060,2010,Jacksonville Jaguars,31.0,28.0,Indianapolis Colts
+10061,2010,New Orleans Saints,16.0,14.0,Carolina Panthers
+10062,2010,New York Giants,17.0,3.0,Chicago Bears
+10063,2010,Oakland Raiders,24.0,31.0,Houston Texans
+10064,2010,Philadelphia Eagles,12.0,17.0,Washington Redskins
+10065,2010,Pittsburgh Steelers,14.0,17.0,Baltimore Ravens
+10066,2010,San Diego Chargers,41.0,10.0,Arizona Cardinals
+10067,2010,St. Louis Rams,20.0,3.0,Seattle Seahawks
+10068,2010,Tennessee Titans,20.0,26.0,Denver Broncos
+10069,2010,Miami Dolphins,14.0,41.0,New England Patriots
+10070,2010,Arizona Cardinals,30.0,20.0,New Orleans Saints
+10071,2010,Baltimore Ravens,31.0,17.0,Denver Broncos
+10072,2010,Buffalo Bills,26.0,36.0,Jacksonville Jaguars
+10073,2010,Carolina Panthers,6.0,23.0,Chicago Bears
+10074,2010,Cincinnati Bengals,21.0,24.0,Tampa Bay Buccaneers
+10075,2010,Cleveland Browns,10.0,20.0,Atlanta Falcons
+10076,2010,Dallas Cowboys,27.0,34.0,Tennessee Titans
+10077,2010,Detroit Lions,44.0,6.0,St. Louis Rams
+10078,2010,Houston Texans,10.0,34.0,New York Giants
+10079,2010,Indianapolis Colts,19.0,9.0,Kansas City Chiefs
+10080,2010,Oakland Raiders,35.0,27.0,San Diego Chargers
+10081,2010,San Francisco 49ers,24.0,27.0,Philadelphia Eagles
+10082,2010,Washington Redskins,16.0,13.0,Green Bay Packers
+10083,2010,New York Jets,29.0,20.0,Minnesota Vikings
+10084,2010,Chicago Bears,20.0,23.0,Seattle Seahawks
+10085,2010,Denver Broncos,20.0,24.0,New York Jets
+10086,2010,Green Bay Packers,20.0,23.0,Miami Dolphins
+10087,2010,Houston Texans,35.0,31.0,Kansas City Chiefs
+10088,2010,Minnesota Vikings,24.0,21.0,Dallas Cowboys
+10089,2010,New England Patriots,23.0,20.0,Baltimore Ravens
+10090,2010,New York Giants,28.0,20.0,Detroit Lions
+10091,2010,Philadelphia Eagles,31.0,17.0,Atlanta Falcons
+10092,2010,Pittsburgh Steelers,28.0,10.0,Cleveland Browns
+10093,2010,San Francisco 49ers,17.0,9.0,Oakland Raiders
+10094,2010,St. Louis Rams,20.0,17.0,San Diego Chargers
+10095,2010,Tampa Bay Buccaneers,6.0,31.0,New Orleans Saints
+10096,2010,Washington Redskins,24.0,27.0,Indianapolis Colts
+10097,2010,Jacksonville Jaguars,3.0,30.0,Tennessee Titans
+10098,2010,Atlanta Falcons,39.0,32.0,Cincinnati Bengals
+10099,2010,Baltimore Ravens,37.0,34.0,Buffalo Bills
+10100,2010,Carolina Panthers,23.0,20.0,San Francisco 49ers
+10101,2010,Chicago Bears,14.0,17.0,Washington Redskins
+10102,2010,Denver Broncos,14.0,59.0,Oakland Raiders
+10103,2010,Green Bay Packers,28.0,24.0,Minnesota Vikings
+10104,2010,Kansas City Chiefs,42.0,20.0,Jacksonville Jaguars
+10105,2010,Miami Dolphins,22.0,23.0,Pittsburgh Steelers
+10106,2010,New Orleans Saints,17.0,30.0,Cleveland Browns
+10107,2010,San Diego Chargers,20.0,23.0,New England Patriots
+10108,2010,Seattle Seahawks,22.0,10.0,Arizona Cardinals
+10109,2010,Tampa Bay Buccaneers,18.0,17.0,St. Louis Rams
+10110,2010,Tennessee Titans,37.0,19.0,Philadelphia Eagles
+10111,2010,Dallas Cowboys,35.0,41.0,New York Giants
+10112,2010,Arizona Cardinals,35.0,38.0,Tampa Bay Buccaneers
+10113,2010,Cincinnati Bengals,14.0,22.0,Miami Dolphins
+10114,2010,Dallas Cowboys,17.0,35.0,Jacksonville Jaguars
+10115,2010,Detroit Lions,37.0,25.0,Washington Redskins
+10116,2010,Kansas City Chiefs,13.0,10.0,Buffalo Bills
+10117,2010,New England Patriots,28.0,18.0,Minnesota Vikings
+10118,2010,New Orleans Saints,20.0,10.0,Pittsburgh Steelers
+10119,2010,New York Jets,0.0,9.0,Green Bay Packers
+10120,2010,Oakland Raiders,33.0,3.0,Seattle Seahawks
+10121,2010,San Diego Chargers,33.0,25.0,Tennessee Titans
+10122,2010,San Francisco 49ers,24.0,16.0,Denver Broncos
+10123,2010,St. Louis Rams,20.0,10.0,Carolina Panthers
+10124,2010,Indianapolis Colts,30.0,17.0,Houston Texans
+10125,2010,Atlanta Falcons,27.0,21.0,Tampa Bay Buccaneers
+10126,2010,Baltimore Ravens,26.0,10.0,Miami Dolphins
+10127,2010,Buffalo Bills,19.0,22.0,Chicago Bears
+10128,2010,Carolina Panthers,3.0,34.0,New Orleans Saints
+10129,2010,Cleveland Browns,34.0,14.0,New England Patriots
+10130,2010,Detroit Lions,20.0,23.0,New York Jets
+10131,2010,Green Bay Packers,45.0,7.0,Dallas Cowboys
+10132,2010,Houston Texans,23.0,29.0,San Diego Chargers
+10133,2010,Minnesota Vikings,27.0,24.0,Arizona Cardinals
+10134,2010,Oakland Raiders,23.0,20.0,Kansas City Chiefs
+10135,2010,Philadelphia Eagles,26.0,24.0,Indianapolis Colts
+10136,2010,Seattle Seahawks,7.0,41.0,New York Giants
+10137,2010,Cincinnati Bengals,21.0,27.0,Pittsburgh Steelers
+10138,2010,Atlanta Falcons,26.0,21.0,Baltimore Ravens
+10139,2010,Arizona Cardinals,18.0,36.0,Seattle Seahawks
+10140,2010,Buffalo Bills,14.0,12.0,Detroit Lions
+10141,2010,Chicago Bears,27.0,13.0,Minnesota Vikings
+10142,2010,Cleveland Browns,20.0,26.0,New York Jets
+10143,2010,Denver Broncos,49.0,29.0,Kansas City Chiefs
+10144,2010,Indianapolis Colts,23.0,17.0,Cincinnati Bengals
+10145,2010,Jacksonville Jaguars,31.0,24.0,Houston Texans
+10146,2010,Miami Dolphins,29.0,17.0,Tennessee Titans
+10147,2010,New York Giants,20.0,33.0,Dallas Cowboys
+10148,2010,Pittsburgh Steelers,26.0,39.0,New England Patriots
+10149,2010,San Francisco 49ers,23.0,20.0,St. Louis Rams
+10150,2010,Tampa Bay Buccaneers,31.0,16.0,Carolina Panthers
+10151,2010,Washington Redskins,28.0,59.0,Philadelphia Eagles
+10152,2010,Miami Dolphins,0.0,16.0,Chicago Bears
+10153,2010,Carolina Panthers,13.0,37.0,Baltimore Ravens
+10154,2010,Cincinnati Bengals,31.0,49.0,Buffalo Bills
+10155,2010,Dallas Cowboys,35.0,19.0,Detroit Lions
+10156,2010,Jacksonville Jaguars,24.0,20.0,Cleveland Browns
+10157,2010,Kansas City Chiefs,31.0,13.0,Arizona Cardinals
+10158,2010,Minnesota Vikings,3.0,31.0,Green Bay Packers
+10159,2010,New England Patriots,31.0,28.0,Indianapolis Colts
+10160,2010,New Orleans Saints,34.0,19.0,Seattle Seahawks
+10161,2010,New York Jets,30.0,27.0,Houston Texans
+10162,2010,Philadelphia Eagles,27.0,17.0,New York Giants
+10163,2010,Pittsburgh Steelers,35.0,3.0,Oakland Raiders
+10164,2010,San Francisco 49ers,0.0,21.0,Tampa Bay Buccaneers
+10165,2010,St. Louis Rams,17.0,34.0,Atlanta Falcons
+10166,2010,Tennessee Titans,16.0,19.0,Washington Redskins
+10167,2010,San Diego Chargers,35.0,14.0,Denver Broncos
+10168,2010,Dallas Cowboys,27.0,30.0,New Orleans Saints
+10169,2010,Detroit Lions,24.0,45.0,New England Patriots
+10170,2010,New York Jets,26.0,10.0,Cincinnati Bengals
+10171,2010,Atlanta Falcons,20.0,17.0,Green Bay Packers
+10172,2010,Baltimore Ravens,17.0,10.0,Tampa Bay Buccaneers
+10173,2010,Buffalo Bills,16.0,19.0,Pittsburgh Steelers
+10174,2010,Chicago Bears,31.0,26.0,Philadelphia Eagles
+10175,2010,Cleveland Browns,24.0,23.0,Carolina Panthers
+10176,2010,Denver Broncos,33.0,36.0,St. Louis Rams
+10177,2010,Houston Texans,20.0,0.0,Tennessee Titans
+10178,2010,Indianapolis Colts,14.0,36.0,San Diego Chargers
+10179,2010,New York Giants,24.0,20.0,Jacksonville Jaguars
+10180,2010,Oakland Raiders,17.0,33.0,Miami Dolphins
+10181,2010,Seattle Seahawks,24.0,42.0,Kansas City Chiefs
+10182,2010,Washington Redskins,13.0,17.0,Minnesota Vikings
+10183,2010,Arizona Cardinals,6.0,27.0,San Francisco 49ers
+10184,2010,Philadelphia Eagles,34.0,24.0,Houston Texans
+10185,2010,Arizona Cardinals,6.0,19.0,St. Louis Rams
+10186,2010,Baltimore Ravens,10.0,13.0,Pittsburgh Steelers
+10187,2010,Cincinnati Bengals,30.0,34.0,New Orleans Saints
+10188,2010,Detroit Lions,20.0,24.0,Chicago Bears
+10189,2010,Green Bay Packers,34.0,16.0,San Francisco 49ers
+10190,2010,Indianapolis Colts,35.0,38.0,Dallas Cowboys
+10191,2010,Kansas City Chiefs,10.0,6.0,Denver Broncos
+10192,2010,Miami Dolphins,10.0,13.0,Cleveland Browns
+10193,2010,Minnesota Vikings,38.0,14.0,Buffalo Bills
+10194,2010,New York Giants,31.0,7.0,Washington Redskins
+10195,2010,San Diego Chargers,13.0,28.0,Oakland Raiders
+10196,2010,Seattle Seahawks,31.0,14.0,Carolina Panthers
+10197,2010,Tampa Bay Buccaneers,24.0,28.0,Atlanta Falcons
+10198,2010,Tennessee Titans,6.0,17.0,Jacksonville Jaguars
+10199,2010,New England Patriots,45.0,3.0,New York Jets
+10200,2010,Tennessee Titans,28.0,30.0,Indianapolis Colts
+10201,2010,Arizona Cardinals,43.0,13.0,Denver Broncos
+10202,2010,Buffalo Bills,13.0,6.0,Cleveland Browns
+10203,2010,Carolina Panthers,10.0,31.0,Atlanta Falcons
+10204,2010,Chicago Bears,7.0,36.0,New England Patriots
+10205,2010,Dallas Cowboys,27.0,30.0,Philadelphia Eagles
+10206,2010,Detroit Lions,7.0,3.0,Green Bay Packers
+10207,2010,Jacksonville Jaguars,38.0,31.0,Oakland Raiders
+10208,2010,New Orleans Saints,31.0,13.0,St. Louis Rams
+10209,2010,New York Jets,6.0,10.0,Miami Dolphins
+10210,2010,Pittsburgh Steelers,23.0,7.0,Cincinnati Bengals
+10211,2010,San Diego Chargers,31.0,0.0,Kansas City Chiefs
+10212,2010,San Francisco 49ers,40.0,21.0,Seattle Seahawks
+10213,2010,Washington Redskins,16.0,17.0,Tampa Bay Buccaneers
+10214,2010,Houston Texans,28.0,34.0,Baltimore Ravens
+10215,2010,Minnesota Vikings,3.0,21.0,New York Giants
+10216,2010,San Diego Chargers,34.0,7.0,San Francisco 49ers
+10217,2010,Baltimore Ravens,30.0,24.0,New Orleans Saints
+10218,2010,Carolina Panthers,19.0,12.0,Arizona Cardinals
+10219,2010,Cincinnati Bengals,19.0,17.0,Cleveland Browns
+10220,2010,Dallas Cowboys,33.0,30.0,Washington Redskins
+10221,2010,Indianapolis Colts,34.0,24.0,Jacksonville Jaguars
+10222,2010,Miami Dolphins,14.0,17.0,Buffalo Bills
+10223,2010,New England Patriots,31.0,27.0,Green Bay Packers
+10224,2010,New York Giants,31.0,38.0,Philadelphia Eagles
+10225,2010,Oakland Raiders,39.0,23.0,Denver Broncos
+10226,2010,Pittsburgh Steelers,17.0,22.0,New York Jets
+10227,2010,Seattle Seahawks,18.0,34.0,Atlanta Falcons
+10228,2010,St. Louis Rams,13.0,27.0,Kansas City Chiefs
+10229,2010,Tampa Bay Buccaneers,20.0,23.0,Detroit Lions
+10230,2010,Tennessee Titans,31.0,17.0,Houston Texans
+10231,2010,Minnesota Vikings,14.0,40.0,Chicago Bears
+10232,2010,Pittsburgh Steelers,27.0,3.0,Carolina Panthers
+10233,2010,Arizona Cardinals,27.0,26.0,Dallas Cowboys
+10234,2010,Buffalo Bills,3.0,34.0,New England Patriots
+10235,2010,Chicago Bears,38.0,34.0,New York Jets
+10236,2010,Cincinnati Bengals,34.0,20.0,San Diego Chargers
+10237,2010,Cleveland Browns,10.0,20.0,Baltimore Ravens
+10238,2010,Denver Broncos,24.0,23.0,Houston Texans
+10239,2010,Green Bay Packers,45.0,17.0,New York Giants
+10240,2010,Jacksonville Jaguars,17.0,20.0,Washington Redskins
+10241,2010,Kansas City Chiefs,34.0,14.0,Tennessee Titans
+10242,2010,Miami Dolphins,27.0,34.0,Detroit Lions
+10243,2010,Oakland Raiders,26.0,31.0,Indianapolis Colts
+10244,2010,St. Louis Rams,25.0,17.0,San Francisco 49ers
+10245,2010,Tampa Bay Buccaneers,38.0,15.0,Seattle Seahawks
+10246,2010,Atlanta Falcons,14.0,17.0,New Orleans Saints
+10247,2010,Philadelphia Eagles,14.0,24.0,Minnesota Vikings
+10248,2010,Atlanta Falcons,31.0,10.0,Carolina Panthers
+10249,2010,Baltimore Ravens,13.0,7.0,Cincinnati Bengals
+10250,2010,Cleveland Browns,9.0,41.0,Pittsburgh Steelers
+10251,2010,Denver Broncos,28.0,33.0,San Diego Chargers
+10252,2010,Detroit Lions,20.0,13.0,Minnesota Vikings
+10253,2010,Green Bay Packers,10.0,3.0,Chicago Bears
+10254,2010,Houston Texans,34.0,17.0,Jacksonville Jaguars
+10255,2010,Indianapolis Colts,23.0,20.0,Tennessee Titans
+10256,2010,Kansas City Chiefs,10.0,31.0,Oakland Raiders
+10257,2010,New England Patriots,38.0,7.0,Miami Dolphins
+10258,2010,New Orleans Saints,13.0,23.0,Tampa Bay Buccaneers
+10259,2010,New York Jets,38.0,7.0,Buffalo Bills
+10260,2010,Philadelphia Eagles,13.0,14.0,Dallas Cowboys
+10261,2010,San Francisco 49ers,38.0,7.0,Arizona Cardinals
+10262,2010,Seattle Seahawks,16.0,6.0,St. Louis Rams
+10263,2010,Washington Redskins,14.0,17.0,New York Giants
+10264,2010,Indianapolis Colts,16.0,17.0,New York Jets
+10265,2010,Seattle Seahawks,41.0,36.0,New Orleans Saints
+10266,2010,Kansas City Chiefs,7.0,30.0,Baltimore Ravens
+10267,2010,Philadelphia Eagles,16.0,21.0,Green Bay Packers
+10268,2010,Atlanta Falcons,21.0,48.0,Green Bay Packers
+10269,2010,Pittsburgh Steelers,31.0,24.0,Baltimore Ravens
+10270,2010,Chicago Bears,35.0,24.0,Seattle Seahawks
+10271,2010,New England Patriots,21.0,28.0,New York Jets
+10272,2010,Chicago Bears,14.0,21.0,Green Bay Packers
+10273,2010,Pittsburgh Steelers,24.0,19.0,New York Jets
+10274,2010,Green Bay Packers,31.0,25.0,Pittsburgh Steelers

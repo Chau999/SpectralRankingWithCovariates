@@ -1,0 +1,268 @@
+,schedule_season,team_home,score_home,score_away,team_away
+8139,2003,Washington Redskins,16.0,13.0,New York Jets
+8140,2003,Buffalo Bills,31.0,0.0,New England Patriots
+8141,2003,Carolina Panthers,24.0,23.0,Jacksonville Jaguars
+8142,2003,Cincinnati Bengals,10.0,30.0,Denver Broncos
+8143,2003,Cleveland Browns,6.0,9.0,Indianapolis Colts
+8144,2003,Dallas Cowboys,13.0,27.0,Atlanta Falcons
+8145,2003,Detroit Lions,42.0,24.0,Arizona Cardinals
+8146,2003,Green Bay Packers,25.0,30.0,Minnesota Vikings
+8147,2003,Kansas City Chiefs,27.0,14.0,San Diego Chargers
+8148,2003,Miami Dolphins,20.0,21.0,Houston Texans
+8149,2003,New York Giants,23.0,13.0,St. Louis Rams
+8150,2003,Pittsburgh Steelers,34.0,15.0,Baltimore Ravens
+8151,2003,San Francisco 49ers,49.0,7.0,Chicago Bears
+8152,2003,Seattle Seahawks,27.0,10.0,New Orleans Saints
+8153,2003,Tennessee Titans,25.0,20.0,Oakland Raiders
+8154,2003,Philadelphia Eagles,0.0,17.0,Tampa Bay Buccaneers
+8155,2003,Arizona Cardinals,0.0,38.0,Seattle Seahawks
+8156,2003,Atlanta Falcons,31.0,33.0,Washington Redskins
+8157,2003,Baltimore Ravens,33.0,13.0,Cleveland Browns
+8158,2003,Green Bay Packers,31.0,6.0,Detroit Lions
+8159,2003,Indianapolis Colts,33.0,7.0,Tennessee Titans
+8160,2003,Jacksonville Jaguars,17.0,38.0,Buffalo Bills
+8161,2003,Kansas City Chiefs,41.0,20.0,Pittsburgh Steelers
+8162,2003,Minnesota Vikings,24.0,13.0,Chicago Bears
+8163,2003,New Orleans Saints,31.0,10.0,Houston Texans
+8164,2003,New York Jets,10.0,21.0,Miami Dolphins
+8165,2003,Oakland Raiders,23.0,20.0,Cincinnati Bengals
+8166,2003,Philadelphia Eagles,10.0,31.0,New England Patriots
+8167,2003,San Diego Chargers,13.0,37.0,Denver Broncos
+8168,2003,St. Louis Rams,27.0,24.0,San Francisco 49ers
+8169,2003,Tampa Bay Buccaneers,9.0,12.0,Carolina Panthers
+8170,2003,New York Giants,32.0,35.0,Dallas Cowboys
+8171,2003,Arizona Cardinals,20.0,13.0,Green Bay Packers
+8172,2003,Atlanta Falcons,10.0,31.0,Tampa Bay Buccaneers
+8173,2003,Cincinnati Bengals,10.0,17.0,Pittsburgh Steelers
+8174,2003,Detroit Lions,13.0,23.0,Minnesota Vikings
+8175,2003,Houston Texans,14.0,42.0,Kansas City Chiefs
+8176,2003,Indianapolis Colts,23.0,13.0,Jacksonville Jaguars
+8177,2003,Miami Dolphins,17.0,7.0,Buffalo Bills
+8178,2003,New England Patriots,23.0,16.0,New York Jets
+8179,2003,San Diego Chargers,10.0,24.0,Baltimore Ravens
+8180,2003,San Francisco 49ers,12.0,13.0,Cleveland Browns
+8181,2003,Seattle Seahawks,24.0,23.0,St. Louis Rams
+8182,2003,Tennessee Titans,27.0,12.0,New Orleans Saints
+8183,2003,Washington Redskins,21.0,24.0,New York Giants
+8184,2003,Denver Broncos,31.0,10.0,Oakland Raiders
+8185,2003,Baltimore Ravens,10.0,17.0,Kansas City Chiefs
+8186,2003,Buffalo Bills,13.0,23.0,Philadelphia Eagles
+8187,2003,Carolina Panthers,23.0,3.0,Atlanta Falcons
+8188,2003,Cleveland Browns,14.0,21.0,Cincinnati Bengals
+8189,2003,Denver Broncos,20.0,16.0,Detroit Lions
+8190,2003,Houston Texans,24.0,20.0,Jacksonville Jaguars
+8191,2003,Minnesota Vikings,35.0,7.0,San Francisco 49ers
+8192,2003,New Orleans Saints,21.0,55.0,Indianapolis Colts
+8193,2003,New York Jets,6.0,17.0,Dallas Cowboys
+8194,2003,Oakland Raiders,34.0,31.0,San Diego Chargers
+8195,2003,Pittsburgh Steelers,13.0,30.0,Tennessee Titans
+8196,2003,St. Louis Rams,37.0,13.0,Arizona Cardinals
+8197,2003,Washington Redskins,20.0,17.0,New England Patriots
+8198,2003,Chicago Bears,23.0,38.0,Green Bay Packers
+8199,2003,Atlanta Falcons,26.0,39.0,Minnesota Vikings
+8200,2003,Buffalo Bills,22.0,16.0,Cincinnati Bengals
+8201,2003,Carolina Panthers,19.0,13.0,New Orleans Saints
+8202,2003,Chicago Bears,24.0,21.0,Oakland Raiders
+8203,2003,Dallas Cowboys,24.0,7.0,Arizona Cardinals
+8204,2003,Green Bay Packers,35.0,13.0,Seattle Seahawks
+8205,2003,Jacksonville Jaguars,27.0,21.0,San Diego Chargers
+8206,2003,Kansas City Chiefs,24.0,23.0,Denver Broncos
+8207,2003,New England Patriots,38.0,30.0,Tennessee Titans
+8208,2003,New York Giants,10.0,23.0,Miami Dolphins
+8209,2003,Philadelphia Eagles,27.0,25.0,Washington Redskins
+8210,2003,Pittsburgh Steelers,13.0,33.0,Cleveland Browns
+8211,2003,San Francisco 49ers,24.0,17.0,Detroit Lions
+8212,2003,Tampa Bay Buccaneers,35.0,38.0,Indianapolis Colts
+8213,2003,Arizona Cardinals,18.0,26.0,Baltimore Ravens
+8214,2003,Cleveland Browns,13.0,7.0,Oakland Raiders
+8215,2003,Dallas Cowboys,23.0,21.0,Philadelphia Eagles
+8216,2003,Denver Broncos,17.0,14.0,Pittsburgh Steelers
+8217,2003,Green Bay Packers,34.0,40.0,Kansas City Chiefs
+8218,2003,Indianapolis Colts,20.0,23.0,Carolina Panthers
+8219,2003,Jacksonville Jaguars,10.0,24.0,Miami Dolphins
+8220,2003,New England Patriots,17.0,6.0,New York Giants
+8221,2003,New Orleans Saints,20.0,13.0,Chicago Bears
+8222,2003,New York Jets,30.0,3.0,Buffalo Bills
+8223,2003,Seattle Seahawks,20.0,19.0,San Francisco 49ers
+8224,2003,Tennessee Titans,38.0,17.0,Houston Texans
+8225,2003,Washington Redskins,13.0,35.0,Tampa Bay Buccaneers
+8226,2003,St. Louis Rams,36.0,0.0,Atlanta Falcons
+8227,2003,Atlanta Falcons,17.0,45.0,New Orleans Saints
+8228,2003,Buffalo Bills,24.0,7.0,Washington Redskins
+8229,2003,Carolina Panthers,17.0,37.0,Tennessee Titans
+8230,2003,Cincinnati Bengals,34.0,26.0,Baltimore Ravens
+8231,2003,Cleveland Browns,20.0,26.0,San Diego Chargers
+8232,2003,Detroit Lions,7.0,38.0,Dallas Cowboys
+8233,2003,Houston Texans,14.0,19.0,New York Jets
+8234,2003,Miami Dolphins,13.0,19.0,New England Patriots
+8235,2003,Minnesota Vikings,28.0,20.0,Denver Broncos
+8236,2003,New York Giants,10.0,14.0,Philadelphia Eagles
+8237,2003,San Francisco 49ers,24.0,7.0,Tampa Bay Buccaneers
+8238,2003,Seattle Seahawks,24.0,17.0,Chicago Bears
+8239,2003,St. Louis Rams,34.0,24.0,Green Bay Packers
+8240,2003,Oakland Raiders,10.0,17.0,Kansas City Chiefs
+8241,2003,Arizona Cardinals,16.0,13.0,San Francisco 49ers
+8242,2003,Baltimore Ravens,26.0,6.0,Denver Broncos
+8243,2003,Chicago Bears,24.0,16.0,Detroit Lions
+8244,2003,Cincinnati Bengals,27.0,24.0,Seattle Seahawks
+8245,2003,Indianapolis Colts,30.0,21.0,Houston Texans
+8246,2003,Jacksonville Jaguars,17.0,30.0,Tennessee Titans
+8247,2003,Kansas City Chiefs,38.0,5.0,Buffalo Bills
+8248,2003,Minnesota Vikings,17.0,29.0,New York Giants
+8249,2003,New England Patriots,9.0,3.0,Cleveland Browns
+8250,2003,New Orleans Saints,20.0,23.0,Carolina Panthers
+8251,2003,Philadelphia Eagles,24.0,17.0,New York Jets
+8252,2003,Pittsburgh Steelers,21.0,33.0,St. Louis Rams
+8253,2003,Tampa Bay Buccaneers,16.0,0.0,Dallas Cowboys
+8254,2003,San Diego Chargers,10.0,26.0,Miami Dolphins
+8255,2003,Arizona Cardinals,17.0,14.0,Cincinnati Bengals
+8256,2003,Atlanta Falcons,16.0,23.0,Philadelphia Eagles
+8257,2003,Baltimore Ravens,24.0,17.0,Jacksonville Jaguars
+8258,2003,Chicago Bears,20.0,7.0,San Diego Chargers
+8259,2003,Dallas Cowboys,21.0,14.0,Washington Redskins
+8260,2003,Detroit Lions,23.0,13.0,Oakland Raiders
+8261,2003,Houston Texans,14.0,10.0,Carolina Panthers
+8262,2003,Miami Dolphins,17.0,23.0,Indianapolis Colts
+8263,2003,Minnesota Vikings,27.0,30.0,Green Bay Packers
+8264,2003,New York Jets,28.0,31.0,New York Giants
+8265,2003,San Francisco 49ers,30.0,10.0,St. Louis Rams
+8266,2003,Seattle Seahawks,23.0,16.0,Pittsburgh Steelers
+8267,2003,Tampa Bay Buccaneers,14.0,17.0,New Orleans Saints
+8268,2003,Denver Broncos,26.0,30.0,New England Patriots
+8269,2003,Carolina Panthers,27.0,24.0,Tampa Bay Buccaneers
+8270,2003,Cincinnati Bengals,34.0,27.0,Houston Texans
+8271,2003,Dallas Cowboys,10.0,6.0,Buffalo Bills
+8272,2003,Detroit Lions,12.0,10.0,Chicago Bears
+8273,2003,Jacksonville Jaguars,28.0,23.0,Indianapolis Colts
+8274,2003,Kansas City Chiefs,41.0,20.0,Cleveland Browns
+8275,2003,New York Giants,7.0,27.0,Atlanta Falcons
+8276,2003,Oakland Raiders,24.0,27.0,New York Jets
+8277,2003,Pittsburgh Steelers,28.0,15.0,Arizona Cardinals
+8278,2003,San Diego Chargers,42.0,28.0,Minnesota Vikings
+8279,2003,St. Louis Rams,33.0,22.0,Baltimore Ravens
+8280,2003,Tennessee Titans,31.0,7.0,Miami Dolphins
+8281,2003,Washington Redskins,27.0,20.0,Seattle Seahawks
+8282,2003,Green Bay Packers,14.0,17.0,Philadelphia Eagles
+8283,2003,Buffalo Bills,10.0,12.0,Houston Texans
+8284,2003,Carolina Panthers,20.0,17.0,Washington Redskins
+8285,2003,Chicago Bears,21.0,23.0,St. Louis Rams
+8286,2003,Cincinnati Bengals,24.0,19.0,Kansas City Chiefs
+8287,2003,Cleveland Browns,44.0,6.0,Arizona Cardinals
+8288,2003,Denver Broncos,37.0,8.0,San Diego Chargers
+8289,2003,Indianapolis Colts,38.0,31.0,New York Jets
+8290,2003,Miami Dolphins,9.0,6.0,Baltimore Ravens
+8291,2003,New England Patriots,12.0,0.0,Dallas Cowboys
+8292,2003,New Orleans Saints,23.0,20.0,Atlanta Falcons
+8293,2003,Oakland Raiders,28.0,18.0,Minnesota Vikings
+8294,2003,Philadelphia Eagles,28.0,10.0,New York Giants
+8295,2003,Seattle Seahawks,35.0,14.0,Detroit Lions
+8296,2003,Tampa Bay Buccaneers,13.0,20.0,Green Bay Packers
+8297,2003,Tennessee Titans,10.0,3.0,Jacksonville Jaguars
+8298,2003,San Francisco 49ers,30.0,14.0,Pittsburgh Steelers
+8299,2003,Arizona Cardinals,27.0,30.0,St. Louis Rams
+8300,2003,Atlanta Falcons,31.0,38.0,Tennessee Titans
+8301,2003,Baltimore Ravens,44.0,41.0,Seattle Seahawks
+8302,2003,Buffalo Bills,14.0,17.0,Indianapolis Colts
+8303,2003,Cleveland Browns,6.0,13.0,Pittsburgh Steelers
+8304,2003,Dallas Cowboys,24.0,20.0,Carolina Panthers
+8305,2003,Denver Broncos,10.0,19.0,Chicago Bears
+8306,2003,Green Bay Packers,20.0,10.0,San Francisco 49ers
+8307,2003,Houston Texans,20.0,23.0,New England Patriots
+8308,2003,Kansas City Chiefs,27.0,24.0,Oakland Raiders
+8309,2003,Miami Dolphins,24.0,23.0,Washington Redskins
+8310,2003,Minnesota Vikings,24.0,14.0,Detroit Lions
+8311,2003,New York Jets,13.0,10.0,Jacksonville Jaguars
+8312,2003,Philadelphia Eagles,33.0,20.0,New Orleans Saints
+8313,2003,San Diego Chargers,27.0,34.0,Cincinnati Bengals
+8314,2003,Tampa Bay Buccaneers,19.0,13.0,New York Giants
+8315,2003,Dallas Cowboys,21.0,40.0,Miami Dolphins
+8316,2003,Detroit Lions,22.0,14.0,Green Bay Packers
+8317,2003,Baltimore Ravens,44.0,6.0,San Francisco 49ers
+8318,2003,Carolina Panthers,16.0,25.0,Philadelphia Eagles
+8319,2003,Chicago Bears,28.0,3.0,Arizona Cardinals
+8320,2003,Houston Texans,17.0,13.0,Atlanta Falcons
+8321,2003,Indianapolis Colts,34.0,38.0,New England Patriots
+8322,2003,Jacksonville Jaguars,17.0,10.0,Tampa Bay Buccaneers
+8323,2003,New York Giants,7.0,24.0,Buffalo Bills
+8324,2003,Oakland Raiders,8.0,22.0,Denver Broncos
+8325,2003,Pittsburgh Steelers,20.0,24.0,Cincinnati Bengals
+8326,2003,San Diego Chargers,24.0,28.0,Kansas City Chiefs
+8327,2003,Seattle Seahawks,34.0,7.0,Cleveland Browns
+8328,2003,St. Louis Rams,48.0,17.0,Minnesota Vikings
+8329,2003,Washington Redskins,20.0,24.0,New Orleans Saints
+8330,2003,New York Jets,24.0,17.0,Tennessee Titans
+8331,2003,Atlanta Falcons,20.0,14.0,Carolina Panthers
+8332,2003,Baltimore Ravens,31.0,13.0,Cincinnati Bengals
+8333,2003,Buffalo Bills,17.0,6.0,New York Jets
+8334,2003,Denver Broncos,45.0,27.0,Kansas City Chiefs
+8335,2003,Detroit Lions,7.0,14.0,San Diego Chargers
+8336,2003,Green Bay Packers,34.0,21.0,Chicago Bears
+8337,2003,Jacksonville Jaguars,27.0,0.0,Houston Texans
+8338,2003,Minnesota Vikings,34.0,7.0,Seattle Seahawks
+8339,2003,New England Patriots,12.0,0.0,Miami Dolphins
+8340,2003,New Orleans Saints,7.0,14.0,Tampa Bay Buccaneers
+8341,2003,New York Giants,7.0,20.0,Washington Redskins
+8342,2003,Philadelphia Eagles,36.0,10.0,Dallas Cowboys
+8343,2003,Pittsburgh Steelers,27.0,7.0,Oakland Raiders
+8344,2003,San Francisco 49ers,50.0,14.0,Arizona Cardinals
+8345,2003,Tennessee Titans,27.0,29.0,Indianapolis Colts
+8346,2003,Cleveland Browns,20.0,26.0,St. Louis Rams
+8347,2003,Arizona Cardinals,17.0,20.0,Carolina Panthers
+8348,2003,Chicago Bears,13.0,10.0,Minnesota Vikings
+8349,2003,Cincinnati Bengals,41.0,38.0,San Francisco 49ers
+8350,2003,Denver Broncos,23.0,20.0,Cleveland Browns
+8351,2003,Indianapolis Colts,38.0,7.0,Atlanta Falcons
+8352,2003,Kansas City Chiefs,45.0,17.0,Detroit Lions
+8353,2003,New England Patriots,27.0,13.0,Jacksonville Jaguars
+8354,2003,New Orleans Saints,45.0,7.0,New York Giants
+8355,2003,New York Jets,6.0,0.0,Pittsburgh Steelers
+8356,2003,Oakland Raiders,20.0,12.0,Baltimore Ravens
+8357,2003,San Diego Chargers,21.0,38.0,Green Bay Packers
+8358,2003,St. Louis Rams,27.0,22.0,Seattle Seahawks
+8359,2003,Tampa Bay Buccaneers,16.0,3.0,Houston Texans
+8360,2003,Tennessee Titans,28.0,26.0,Buffalo Bills
+8361,2003,Washington Redskins,0.0,27.0,Dallas Cowboys
+8362,2003,Miami Dolphins,27.0,34.0,Philadelphia Eagles
+8363,2003,Minnesota Vikings,45.0,20.0,Kansas City Chiefs
+8364,2003,New York Jets,16.0,21.0,New England Patriots
+8365,2003,Tampa Bay Buccaneers,28.0,30.0,Atlanta Falcons
+8366,2003,Buffalo Bills,3.0,20.0,Miami Dolphins
+8367,2003,Carolina Panthers,20.0,14.0,Detroit Lions
+8368,2003,Chicago Bears,27.0,24.0,Washington Redskins
+8369,2003,Cleveland Browns,0.0,35.0,Baltimore Ravens
+8370,2003,Dallas Cowboys,19.0,3.0,New York Giants
+8371,2003,Houston Texans,24.0,27.0,Tennessee Titans
+8372,2003,Indianapolis Colts,17.0,31.0,Denver Broncos
+8373,2003,Jacksonville Jaguars,20.0,19.0,New Orleans Saints
+8374,2003,Philadelphia Eagles,28.0,31.0,San Francisco 49ers
+8375,2003,Pittsburgh Steelers,40.0,24.0,San Diego Chargers
+8376,2003,Seattle Seahawks,28.0,10.0,Arizona Cardinals
+8377,2003,St. Louis Rams,27.0,10.0,Cincinnati Bengals
+8378,2003,Oakland Raiders,7.0,41.0,Green Bay Packers
+8379,2003,New England Patriots,31.0,0.0,Buffalo Bills
+8380,2003,San Francisco 49ers,17.0,24.0,Seattle Seahawks
+8381,2003,Washington Redskins,7.0,31.0,Philadelphia Eagles
+8382,2003,Arizona Cardinals,18.0,17.0,Minnesota Vikings
+8383,2003,Atlanta Falcons,21.0,14.0,Jacksonville Jaguars
+8384,2003,Baltimore Ravens,13.0,10.0,Pittsburgh Steelers
+8385,2003,Cincinnati Bengals,14.0,22.0,Cleveland Browns
+8386,2003,Detroit Lions,30.0,20.0,St. Louis Rams
+8387,2003,Green Bay Packers,31.0,3.0,Denver Broncos
+8388,2003,Houston Texans,17.0,20.0,Indianapolis Colts
+8389,2003,Kansas City Chiefs,31.0,3.0,Chicago Bears
+8390,2003,Miami Dolphins,23.0,21.0,New York Jets
+8391,2003,New Orleans Saints,13.0,7.0,Dallas Cowboys
+8392,2003,New York Giants,24.0,37.0,Carolina Panthers
+8393,2003,San Diego Chargers,21.0,14.0,Oakland Raiders
+8394,2003,Tennessee Titans,33.0,13.0,Tampa Bay Buccaneers
+8395,2003,Baltimore Ravens,17.0,20.0,Tennessee Titans
+8396,2003,Carolina Panthers,29.0,10.0,Dallas Cowboys
+8397,2003,Green Bay Packers,33.0,27.0,Seattle Seahawks
+8398,2003,Indianapolis Colts,41.0,10.0,Denver Broncos
+8399,2003,New England Patriots,17.0,14.0,Tennessee Titans
+8400,2003,St. Louis Rams,23.0,29.0,Carolina Panthers
+8401,2003,Kansas City Chiefs,31.0,38.0,Indianapolis Colts
+8402,2003,Philadelphia Eagles,20.0,17.0,Green Bay Packers
+8403,2003,New England Patriots,24.0,14.0,Indianapolis Colts
+8404,2003,Philadelphia Eagles,3.0,14.0,Carolina Panthers
+8405,2003,New England Patriots,32.0,29.0,Carolina Panthers

@@ -1,0 +1,268 @@
+,schedule_season,team_home,score_home,score_away,team_away
+11076,2014,Seattle Seahawks,36.0,16.0,Green Bay Packers
+11077,2014,Atlanta Falcons,37.0,34.0,New Orleans Saints
+11078,2014,Baltimore Ravens,16.0,23.0,Cincinnati Bengals
+11079,2014,Chicago Bears,20.0,23.0,Buffalo Bills
+11080,2014,Dallas Cowboys,17.0,28.0,San Francisco 49ers
+11081,2014,Denver Broncos,31.0,24.0,Indianapolis Colts
+11082,2014,Houston Texans,17.0,6.0,Washington Redskins
+11083,2014,Kansas City Chiefs,10.0,26.0,Tennessee Titans
+11084,2014,Miami Dolphins,33.0,20.0,New England Patriots
+11085,2014,New York Jets,19.0,14.0,Oakland Raiders
+11086,2014,Philadelphia Eagles,34.0,17.0,Jacksonville Jaguars
+11087,2014,Pittsburgh Steelers,30.0,27.0,Cleveland Browns
+11088,2014,St. Louis Rams,6.0,34.0,Minnesota Vikings
+11089,2014,Tampa Bay Buccaneers,14.0,20.0,Carolina Panthers
+11090,2014,Arizona Cardinals,18.0,17.0,San Diego Chargers
+11091,2014,Detroit Lions,35.0,14.0,New York Giants
+11092,2014,Baltimore Ravens,26.0,6.0,Pittsburgh Steelers
+11093,2014,Buffalo Bills,29.0,10.0,Miami Dolphins
+11094,2014,Carolina Panthers,24.0,7.0,Detroit Lions
+11095,2014,Cincinnati Bengals,24.0,10.0,Atlanta Falcons
+11096,2014,Cleveland Browns,26.0,24.0,New Orleans Saints
+11097,2014,Denver Broncos,24.0,17.0,Kansas City Chiefs
+11098,2014,Green Bay Packers,31.0,24.0,New York Jets
+11099,2014,Minnesota Vikings,7.0,30.0,New England Patriots
+11100,2014,New York Giants,14.0,25.0,Arizona Cardinals
+11101,2014,Oakland Raiders,14.0,30.0,Houston Texans
+11102,2014,San Diego Chargers,30.0,21.0,Seattle Seahawks
+11103,2014,San Francisco 49ers,20.0,28.0,Chicago Bears
+11104,2014,Tampa Bay Buccaneers,17.0,19.0,St. Louis Rams
+11105,2014,Tennessee Titans,10.0,26.0,Dallas Cowboys
+11106,2014,Washington Redskins,41.0,10.0,Jacksonville Jaguars
+11107,2014,Indianapolis Colts,27.0,30.0,Philadelphia Eagles
+11108,2014,Atlanta Falcons,56.0,14.0,Tampa Bay Buccaneers
+11109,2014,Arizona Cardinals,23.0,14.0,San Francisco 49ers
+11110,2014,Buffalo Bills,10.0,22.0,San Diego Chargers
+11111,2014,Carolina Panthers,19.0,37.0,Pittsburgh Steelers
+11112,2014,Cincinnati Bengals,33.0,7.0,Tennessee Titans
+11113,2014,Cleveland Browns,21.0,23.0,Baltimore Ravens
+11114,2014,Detroit Lions,19.0,7.0,Green Bay Packers
+11115,2014,Jacksonville Jaguars,17.0,44.0,Indianapolis Colts
+11116,2014,Miami Dolphins,15.0,34.0,Kansas City Chiefs
+11117,2014,New England Patriots,16.0,9.0,Oakland Raiders
+11118,2014,New Orleans Saints,20.0,9.0,Minnesota Vikings
+11119,2014,New York Giants,30.0,17.0,Houston Texans
+11120,2014,Philadelphia Eagles,37.0,34.0,Washington Redskins
+11121,2014,Seattle Seahawks,26.0,20.0,Denver Broncos
+11122,2014,St. Louis Rams,31.0,34.0,Dallas Cowboys
+11123,2014,New York Jets,19.0,27.0,Chicago Bears
+11124,2014,Washington Redskins,14.0,45.0,New York Giants
+11125,2014,Baltimore Ravens,38.0,10.0,Carolina Panthers
+11126,2014,Chicago Bears,17.0,38.0,Green Bay Packers
+11127,2014,Dallas Cowboys,38.0,17.0,New Orleans Saints
+11128,2014,Houston Texans,23.0,17.0,Buffalo Bills
+11129,2014,Indianapolis Colts,41.0,17.0,Tennessee Titans
+11130,2014,Minnesota Vikings,41.0,28.0,Atlanta Falcons
+11131,2014,New York Jets,17.0,24.0,Detroit Lions
+11132,2014,Oakland Raiders,14.0,38.0,Miami Dolphins
+11133,2014,Pittsburgh Steelers,24.0,27.0,Tampa Bay Buccaneers
+11134,2014,San Diego Chargers,33.0,14.0,Jacksonville Jaguars
+11135,2014,San Francisco 49ers,26.0,21.0,Philadelphia Eagles
+11136,2014,Kansas City Chiefs,41.0,14.0,New England Patriots
+11137,2014,Green Bay Packers,42.0,10.0,Minnesota Vikings
+11138,2014,Carolina Panthers,31.0,24.0,Chicago Bears
+11139,2014,Dallas Cowboys,20.0,17.0,Houston Texans
+11140,2014,Denver Broncos,41.0,20.0,Arizona Cardinals
+11141,2014,Detroit Lions,14.0,17.0,Buffalo Bills
+11142,2014,Indianapolis Colts,20.0,13.0,Baltimore Ravens
+11143,2014,Jacksonville Jaguars,9.0,17.0,Pittsburgh Steelers
+11144,2014,New England Patriots,43.0,17.0,Cincinnati Bengals
+11145,2014,New Orleans Saints,37.0,31.0,Tampa Bay Buccaneers
+11146,2014,New York Giants,30.0,20.0,Atlanta Falcons
+11147,2014,Philadelphia Eagles,34.0,28.0,St. Louis Rams
+11148,2014,San Diego Chargers,31.0,0.0,New York Jets
+11149,2014,San Francisco 49ers,22.0,17.0,Kansas City Chiefs
+11150,2014,Tennessee Titans,28.0,29.0,Cleveland Browns
+11151,2014,Washington Redskins,17.0,27.0,Seattle Seahawks
+11152,2014,Houston Texans,28.0,33.0,Indianapolis Colts
+11153,2014,Arizona Cardinals,30.0,20.0,Washington Redskins
+11154,2014,Atlanta Falcons,13.0,27.0,Chicago Bears
+11155,2014,Buffalo Bills,22.0,37.0,New England Patriots
+11156,2014,Cincinnati Bengals,37.0,37.0,Carolina Panthers
+11157,2014,Cleveland Browns,31.0,10.0,Pittsburgh Steelers
+11158,2014,Miami Dolphins,24.0,27.0,Green Bay Packers
+11159,2014,Minnesota Vikings,3.0,17.0,Detroit Lions
+11160,2014,New York Jets,17.0,31.0,Denver Broncos
+11161,2014,Oakland Raiders,28.0,31.0,San Diego Chargers
+11162,2014,Philadelphia Eagles,27.0,0.0,New York Giants
+11163,2014,Seattle Seahawks,23.0,30.0,Dallas Cowboys
+11164,2014,Tampa Bay Buccaneers,17.0,48.0,Baltimore Ravens
+11165,2014,Tennessee Titans,16.0,14.0,Jacksonville Jaguars
+11166,2014,St. Louis Rams,17.0,31.0,San Francisco 49ers
+11167,2014,New England Patriots,27.0,25.0,New York Jets
+11168,2014,Baltimore Ravens,29.0,7.0,Atlanta Falcons
+11169,2014,Buffalo Bills,17.0,16.0,Minnesota Vikings
+11170,2014,Chicago Bears,14.0,27.0,Miami Dolphins
+11171,2014,Dallas Cowboys,31.0,21.0,New York Giants
+11172,2014,Denver Broncos,42.0,17.0,San Francisco 49ers
+11173,2014,Detroit Lions,24.0,23.0,New Orleans Saints
+11174,2014,Green Bay Packers,38.0,17.0,Carolina Panthers
+11175,2014,Indianapolis Colts,27.0,0.0,Cincinnati Bengals
+11176,2014,Jacksonville Jaguars,24.0,6.0,Cleveland Browns
+11177,2014,Oakland Raiders,13.0,24.0,Arizona Cardinals
+11178,2014,San Diego Chargers,20.0,23.0,Kansas City Chiefs
+11179,2014,St. Louis Rams,28.0,26.0,Seattle Seahawks
+11180,2014,Washington Redskins,19.0,17.0,Tennessee Titans
+11181,2014,Pittsburgh Steelers,30.0,23.0,Houston Texans
+11182,2014,Denver Broncos,35.0,21.0,San Diego Chargers
+11183,2014,Arizona Cardinals,24.0,20.0,Philadelphia Eagles
+11184,2014,Atlanta Falcons,21.0,22.0,Detroit Lions
+11185,2014,Carolina Panthers,9.0,13.0,Seattle Seahawks
+11186,2014,Cincinnati Bengals,27.0,24.0,Baltimore Ravens
+11187,2014,Cleveland Browns,23.0,13.0,Oakland Raiders
+11188,2014,Jacksonville Jaguars,13.0,27.0,Miami Dolphins
+11189,2014,Kansas City Chiefs,34.0,7.0,St. Louis Rams
+11190,2014,New England Patriots,51.0,23.0,Chicago Bears
+11191,2014,New Orleans Saints,44.0,23.0,Green Bay Packers
+11192,2014,New York Jets,23.0,43.0,Buffalo Bills
+11193,2014,Pittsburgh Steelers,51.0,34.0,Indianapolis Colts
+11194,2014,Tampa Bay Buccaneers,13.0,19.0,Minnesota Vikings
+11195,2014,Tennessee Titans,16.0,30.0,Houston Texans
+11196,2014,Dallas Cowboys,17.0,20.0,Washington Redskins
+11197,2014,Carolina Panthers,10.0,28.0,New Orleans Saints
+11198,2014,Cincinnati Bengals,33.0,23.0,Jacksonville Jaguars
+11199,2014,Cleveland Browns,22.0,17.0,Tampa Bay Buccaneers
+11200,2014,Dallas Cowboys,17.0,28.0,Arizona Cardinals
+11201,2014,Houston Texans,21.0,31.0,Philadelphia Eagles
+11202,2014,Kansas City Chiefs,24.0,10.0,New York Jets
+11203,2014,Miami Dolphins,37.0,0.0,San Diego Chargers
+11204,2014,Minnesota Vikings,29.0,26.0,Washington Redskins
+11205,2014,New England Patriots,43.0,21.0,Denver Broncos
+11206,2014,Pittsburgh Steelers,43.0,23.0,Baltimore Ravens
+11207,2014,San Francisco 49ers,10.0,13.0,St. Louis Rams
+11208,2014,Seattle Seahawks,30.0,24.0,Oakland Raiders
+11209,2014,New York Giants,24.0,40.0,Indianapolis Colts
+11210,2014,Cincinnati Bengals,3.0,24.0,Cleveland Browns
+11211,2014,Arizona Cardinals,31.0,14.0,St. Louis Rams
+11212,2014,Baltimore Ravens,21.0,7.0,Tennessee Titans
+11213,2014,Buffalo Bills,13.0,17.0,Kansas City Chiefs
+11214,2014,Detroit Lions,20.0,16.0,Miami Dolphins
+11215,2014,Green Bay Packers,55.0,14.0,Chicago Bears
+11216,2014,Jacksonville Jaguars,17.0,31.0,Dallas Cowboys
+11217,2014,New Orleans Saints,24.0,27.0,San Francisco 49ers
+11218,2014,New York Jets,20.0,13.0,Pittsburgh Steelers
+11219,2014,Oakland Raiders,17.0,41.0,Denver Broncos
+11220,2014,Seattle Seahawks,38.0,17.0,New York Giants
+11221,2014,Tampa Bay Buccaneers,17.0,27.0,Atlanta Falcons
+11222,2014,Philadelphia Eagles,45.0,21.0,Carolina Panthers
+11223,2014,Miami Dolphins,22.0,9.0,Buffalo Bills
+11224,2014,Arizona Cardinals,14.0,6.0,Detroit Lions
+11225,2014,Carolina Panthers,17.0,19.0,Atlanta Falcons
+11226,2014,Chicago Bears,21.0,13.0,Minnesota Vikings
+11227,2014,Cleveland Browns,7.0,23.0,Houston Texans
+11228,2014,Green Bay Packers,53.0,20.0,Philadelphia Eagles
+11229,2014,Indianapolis Colts,20.0,42.0,New England Patriots
+11230,2014,Kansas City Chiefs,24.0,20.0,Seattle Seahawks
+11231,2014,New Orleans Saints,10.0,27.0,Cincinnati Bengals
+11232,2014,New York Giants,10.0,16.0,San Francisco 49ers
+11233,2014,San Diego Chargers,13.0,6.0,Oakland Raiders
+11234,2014,St. Louis Rams,22.0,7.0,Denver Broncos
+11235,2014,Washington Redskins,7.0,27.0,Tampa Bay Buccaneers
+11236,2014,Tennessee Titans,24.0,27.0,Pittsburgh Steelers
+11237,2014,Oakland Raiders,24.0,20.0,Kansas City Chiefs
+11238,2014,Atlanta Falcons,24.0,26.0,Cleveland Browns
+11239,2014,Chicago Bears,21.0,13.0,Tampa Bay Buccaneers
+11240,2014,Denver Broncos,39.0,36.0,Miami Dolphins
+11241,2014,Houston Texans,13.0,22.0,Cincinnati Bengals
+11242,2014,Indianapolis Colts,23.0,3.0,Jacksonville Jaguars
+11243,2014,Minnesota Vikings,21.0,24.0,Green Bay Packers
+11244,2014,New England Patriots,34.0,9.0,Detroit Lions
+11245,2014,New York Giants,28.0,31.0,Dallas Cowboys
+11246,2014,Philadelphia Eagles,43.0,24.0,Tennessee Titans
+11247,2014,San Diego Chargers,27.0,24.0,St. Louis Rams
+11248,2014,San Francisco 49ers,17.0,13.0,Washington Redskins
+11249,2014,Seattle Seahawks,19.0,3.0,Arizona Cardinals
+11250,2014,Buffalo Bills,38.0,3.0,New York Jets
+11251,2014,New Orleans Saints,27.0,34.0,Baltimore Ravens
+11252,2014,Dallas Cowboys,10.0,33.0,Philadelphia Eagles
+11253,2014,Detroit Lions,34.0,17.0,Chicago Bears
+11254,2014,San Francisco 49ers,3.0,19.0,Seattle Seahawks
+11255,2014,Atlanta Falcons,29.0,18.0,Arizona Cardinals
+11256,2014,Baltimore Ravens,33.0,34.0,San Diego Chargers
+11257,2014,Buffalo Bills,26.0,10.0,Cleveland Browns
+11258,2014,Green Bay Packers,26.0,21.0,New England Patriots
+11259,2014,Houston Texans,45.0,21.0,Tennessee Titans
+11260,2014,Indianapolis Colts,49.0,27.0,Washington Redskins
+11261,2014,Jacksonville Jaguars,25.0,24.0,New York Giants
+11262,2014,Kansas City Chiefs,16.0,29.0,Denver Broncos
+11263,2014,Minnesota Vikings,31.0,13.0,Carolina Panthers
+11264,2014,Pittsburgh Steelers,32.0,35.0,New Orleans Saints
+11265,2014,St. Louis Rams,52.0,0.0,Oakland Raiders
+11266,2014,Tampa Bay Buccaneers,13.0,14.0,Cincinnati Bengals
+11267,2014,New York Jets,13.0,16.0,Miami Dolphins
+11268,2014,Chicago Bears,28.0,41.0,Dallas Cowboys
+11269,2014,Arizona Cardinals,17.0,14.0,Kansas City Chiefs
+11270,2014,Cincinnati Bengals,21.0,42.0,Pittsburgh Steelers
+11271,2014,Cleveland Browns,24.0,25.0,Indianapolis Colts
+11272,2014,Denver Broncos,24.0,17.0,Buffalo Bills
+11273,2014,Detroit Lions,34.0,17.0,Tampa Bay Buccaneers
+11274,2014,Jacksonville Jaguars,13.0,27.0,Houston Texans
+11275,2014,Miami Dolphins,13.0,28.0,Baltimore Ravens
+11276,2014,Minnesota Vikings,30.0,24.0,New York Jets
+11277,2014,New Orleans Saints,10.0,41.0,Carolina Panthers
+11278,2014,Oakland Raiders,24.0,13.0,San Francisco 49ers
+11279,2014,Philadelphia Eagles,14.0,24.0,Seattle Seahawks
+11280,2014,San Diego Chargers,14.0,23.0,New England Patriots
+11281,2014,Tennessee Titans,7.0,36.0,New York Giants
+11282,2014,Washington Redskins,0.0,24.0,St. Louis Rams
+11283,2014,Green Bay Packers,43.0,37.0,Atlanta Falcons
+11284,2014,St. Louis Rams,6.0,12.0,Arizona Cardinals
+11285,2014,Atlanta Falcons,20.0,27.0,Pittsburgh Steelers
+11286,2014,Baltimore Ravens,20.0,12.0,Jacksonville Jaguars
+11287,2014,Buffalo Bills,21.0,13.0,Green Bay Packers
+11288,2014,Carolina Panthers,19.0,17.0,Tampa Bay Buccaneers
+11289,2014,Cleveland Browns,0.0,30.0,Cincinnati Bengals
+11290,2014,Detroit Lions,16.0,14.0,Minnesota Vikings
+11291,2014,Indianapolis Colts,17.0,10.0,Houston Texans
+11292,2014,Kansas City Chiefs,31.0,13.0,Oakland Raiders
+11293,2014,New England Patriots,41.0,13.0,Miami Dolphins
+11294,2014,New York Giants,24.0,13.0,Washington Redskins
+11295,2014,Philadelphia Eagles,27.0,38.0,Dallas Cowboys
+11296,2014,San Diego Chargers,10.0,22.0,Denver Broncos
+11297,2014,Seattle Seahawks,17.0,7.0,San Francisco 49ers
+11298,2014,Tennessee Titans,11.0,16.0,New York Jets
+11299,2014,Chicago Bears,15.0,31.0,New Orleans Saints
+11300,2014,Jacksonville Jaguars,21.0,13.0,Tennessee Titans
+11301,2014,San Francisco 49ers,35.0,38.0,San Diego Chargers
+11302,2014,Washington Redskins,27.0,24.0,Philadelphia Eagles
+11303,2014,Arizona Cardinals,6.0,35.0,Seattle Seahawks
+11304,2014,Carolina Panthers,17.0,13.0,Cleveland Browns
+11305,2014,Chicago Bears,14.0,20.0,Detroit Lions
+11306,2014,Dallas Cowboys,42.0,7.0,Indianapolis Colts
+11307,2014,Houston Texans,25.0,13.0,Baltimore Ravens
+11308,2014,Miami Dolphins,37.0,35.0,Minnesota Vikings
+11309,2014,New Orleans Saints,14.0,30.0,Atlanta Falcons
+11310,2014,New York Jets,16.0,17.0,New England Patriots
+11311,2014,Oakland Raiders,26.0,24.0,Buffalo Bills
+11312,2014,Pittsburgh Steelers,20.0,12.0,Kansas City Chiefs
+11313,2014,St. Louis Rams,27.0,37.0,New York Giants
+11314,2014,Tampa Bay Buccaneers,3.0,20.0,Green Bay Packers
+11315,2014,Cincinnati Bengals,37.0,28.0,Denver Broncos
+11316,2014,Atlanta Falcons,3.0,34.0,Carolina Panthers
+11317,2014,Baltimore Ravens,20.0,10.0,Cleveland Browns
+11318,2014,Denver Broncos,47.0,14.0,Oakland Raiders
+11319,2014,Green Bay Packers,30.0,20.0,Detroit Lions
+11320,2014,Houston Texans,23.0,17.0,Jacksonville Jaguars
+11321,2014,Kansas City Chiefs,19.0,7.0,San Diego Chargers
+11322,2014,Miami Dolphins,24.0,37.0,New York Jets
+11323,2014,Minnesota Vikings,13.0,9.0,Chicago Bears
+11324,2014,New England Patriots,9.0,17.0,Buffalo Bills
+11325,2014,New York Giants,26.0,34.0,Philadelphia Eagles
+11326,2014,Pittsburgh Steelers,27.0,17.0,Cincinnati Bengals
+11327,2014,San Francisco 49ers,20.0,17.0,Arizona Cardinals
+11328,2014,Seattle Seahawks,20.0,6.0,St. Louis Rams
+11329,2014,Tampa Bay Buccaneers,20.0,23.0,New Orleans Saints
+11330,2014,Tennessee Titans,10.0,27.0,Indianapolis Colts
+11331,2014,Washington Redskins,17.0,44.0,Dallas Cowboys
+11332,2014,Carolina Panthers,27.0,16.0,Arizona Cardinals
+11333,2014,Pittsburgh Steelers,17.0,30.0,Baltimore Ravens
+11334,2014,Dallas Cowboys,24.0,20.0,Detroit Lions
+11335,2014,Indianapolis Colts,26.0,10.0,Cincinnati Bengals
+11336,2014,New England Patriots,35.0,31.0,Baltimore Ravens
+11337,2014,Seattle Seahawks,31.0,17.0,Carolina Panthers
+11338,2014,Denver Broncos,13.0,24.0,Indianapolis Colts
+11339,2014,Green Bay Packers,26.0,21.0,Dallas Cowboys
+11340,2014,New England Patriots,45.0,7.0,Indianapolis Colts
+11341,2014,Seattle Seahawks,28.0,22.0,Green Bay Packers
+11342,2014,New England Patriots,28.0,24.0,Seattle Seahawks
