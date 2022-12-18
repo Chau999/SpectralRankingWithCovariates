@@ -5,18 +5,19 @@ warnings.filterwarnings("ignore")
 
 import sys
 
-sys.path.append("../")
+sys.path.append("../../")
 
 import os
 import numpy as np
 import torch
-from src.spektrankers import SVDRankerNormal, SVDRankerCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, CCARank
-from src.spektrankle_misc import C_to_choix_ls
-from src.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
-from src.prefkrr import PreferentialKRR
+from src.models.spektrankers import SVDRankerNormal, SVDRankerCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, \
+    CCARank
+from models.spektrankle_misc import C_to_choix_ls
+from models.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
+from models.prefkrr import PreferentialKRR
 
-from src.load_experiments import unseen_setup, Pokemon
-from src.spektrankle_misc import compute_upsets, median_heuristic
+from data.load_experiments import unseen_setup, Pokemon
+from models.spektrankle_misc import compute_upsets, median_heuristic
 from gpytorch.kernels import RBFKernel, ScaleKernel
 
 

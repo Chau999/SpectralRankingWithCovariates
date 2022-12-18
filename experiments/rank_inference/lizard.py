@@ -5,21 +5,20 @@ warnings.filterwarnings("ignore")
 
 import sys
 
-sys.path.append("../")
+sys.path.append("../../")
 
 import os
 import numpy as np
 import torch
 from src.spektrankers import SVDRankerNormal, SVDRankerCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, CCARank, \
     DiffusionRankCentrality, RankCentrality
+from models.spektrankle_misc import C_to_choix_ls
+from models.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
+from models.prefkrr import PreferentialKRR
 
-from src.spektrankle_misc import C_to_choix_ls
-from src.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
-from src.prefkrr import PreferentialKRR
-
-from src.load_experiments import Chameleon
-from src.spektrankle_misc import compute_upsets, median_heuristic
-from gpytorch.kernels import RBFKernel
+from data.load_experiments import FlatLizard
+from models.spektrankle_misc import compute_upsets, median_heuristic
+from gpytorch.kernels import RBFKernel, ScaleKernel
 
 
 def extract_upsets(r, C):
@@ -32,12 +31,12 @@ seed_ls = [i for i in range(20)]
 if __name__ == '__main__':
     for seed in seed_ls:
         np.random.seed(seed)
+        C_train, choix_ls, C_test, X, K = FlatLizard(split=0.7)
 
-        C_train, choix_ls, C_test, X, K = Chameleon(split=0.7)
         X_test = X
 
         d = X.shape[1]
-        k = RBFKernel(ard_num_dims=d)
+        k = ScaleKernel(RBFKernel(ard_num_dims=d))
         k.lengthscalse = median_heuristic(X)
         K = k(torch.tensor(X).float()).evaluate().detach().numpy()
         K_test = k(torch.tensor(X), torch.tensor(X_test)).evaluate().detach().numpy().T
@@ -76,12 +75,14 @@ if __name__ == '__main__':
         upset_train["serial"] = extract_upsets(serial.r, C_train)
         upset_test["serial"] = extract_upsets(serial.r, C_test)
 
+        # C-Serial
+        # C-Serial Rank
         cserial = CSerialRank(C_train, K, 1e-1, verbose=False)
         cserial.fit()
 
-        train_score = [extract_upsets(cserial.r, C_train)]
+        train_score = extract_upsets(cserial.r, C_train)
 
-        test_score = [extract_upsets(cserial.r, C_test)]
+        test_score = extract_upsets(cserial.r, C_test)
 
         upset_train["c-serial"] = train_score
         upset_test["c-serial"] = test_score
@@ -142,7 +143,7 @@ if __name__ == '__main__':
         print(results)
         print("\n")
 
-        job_name = 'chameleon_results_seen'
+        job_name = 'lizard_results_seen'
         if not os.path.exists(job_name):
             os.makedirs(job_name)
 

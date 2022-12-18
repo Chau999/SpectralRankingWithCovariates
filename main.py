@@ -15,14 +15,13 @@ import itertools
 import os
 import numpy as np
 import torch
-from src.spektrankers import SVDRankerNormal, SVDRankerNCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, CCARank, \
+from src.models.spektrankers import SVDRankerNormal, SVDRankerNCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, CCARank, \
     DiffusionRankCentrality, RankCentrality
-from src.spektrankle_misc import median_heuristic, C_to_choix_ls, train_test_split_C, kendalltau_score
+from models.spektrankle_misc import median_heuristic, C_to_choix_ls, train_test_split_C, kendalltau_score
 from gpytorch.kernels import RBFKernel
-from src.simulation import Simulation
-from src.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
-from scipy.stats import kendalltau
-from src.prefkrr import PreferentialKRR
+from data.simulation import Simulation
+from models.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
+from models.prefkrr import PreferentialKRR
 
 
 def main(n, d, sparsity_rate, error_rate, error_type, noise_level, train_ratio, seed, job_name):

@@ -2,7 +2,7 @@
 
 import sys
 
-sys.path.append("../")
+sys.path.append("../../")
 
 from numpy.random import rand, randn, randint
 from sklearn.preprocessing import StandardScaler
@@ -372,11 +372,11 @@ def Insurance_offset(split=0.7, matern_length=0.3, noise=.3, sparsity=0.7):
 
 def Chameleon(split=0.7, matern_length=0.3):
     # Contest
-    contest = pd.read_csv("../data/Chameleons/matches.csv",
+    contest = pd.read_csv("../../data/Chameleons/matches.csv",
                           index_col="Unnamed: 0")
     contest.columns = ["Winner", "Loser"]
     predictors = pd.read_csv(
-        "../data/Chameleons/predictors.csv", index_col="Unnamed: 0")
+        "../../data/Chameleons/predictors.csv", index_col="Unnamed: 0")
     num_players = predictors.shape[0]
 
     # Randomise
@@ -430,9 +430,9 @@ def Chameleon(split=0.7, matern_length=0.3):
 
 
 def FlatLizard(split=0.7, matern_length=0.3):
-    contest = pd.read_csv("../data/lizard_data/contest.csv")
+    contest = pd.read_csv("../../data/lizard_data/contest.csv")
     predictors = pd.read_csv(
-        "../data/lizard_data/predictors.csv", index_col="Unnamed: 0")
+        "../../data/lizard_data/predictors.csv", index_col="Unnamed: 0")
     del contest["Unnamed: 0"]
 
     cut = round(contest.shape[0] * split)
@@ -612,8 +612,8 @@ def NFL_offset(split=0.7, matern_length=0.3):
 
 
 def Pokemon(split=0.7, matern_length=0.3):
-    stats = pd.read_csv("../data/Pokemon/pokemon.csv", index_col="#")
-    contest = pd.read_csv("../data/Pokemon/combats.csv")
+    stats = pd.read_csv("../../data/Pokemon/pokemon.csv", index_col="#")
+    contest = pd.read_csv("../../data/Pokemon/combats.csv")
 
     cut = round(contest.shape[0] * split)
     shuffle_ls = np.random.choice(
@@ -695,8 +695,8 @@ def Pokemon(split=0.7, matern_length=0.3):
 
 
 def Small_Pokemon(split=0.7, matern_length=0.3):
-    stats = pd.read_csv("../data/Pokemon/pokemon.csv", index_col="#")
-    contest = pd.read_csv("../data/Pokemon/combats.csv")
+    stats = pd.read_csv("../../data/Pokemon/pokemon.csv", index_col="#")
+    contest = pd.read_csv("../../data/Pokemon/combats.csv")
 
     stats = stats.loc[:200, ]
 

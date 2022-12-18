@@ -5,19 +5,19 @@ warnings.filterwarnings("ignore")
 
 import sys
 
-sys.path.append("../")
+sys.path.append("../../")
 
 import os
 import numpy as np
 import torch
-from src.spektrankers import SVDRankerNormal, SVDRankerCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, CCARank
-from src.spektrankle_misc import C_to_choix_ls, train_test_split_C
-from src.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
-from src.prefkrr import PreferentialKRR
+from src.spektrankers import SVDRankerNormal, SVDRankerCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, CCARank, \
+    DiffusionRankCentrality, RankCentrality
+from models.spektrankle_misc import C_to_choix_ls
+from models.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
+from models.prefkrr import PreferentialKRR
 
-from src.load_experiments import unseen_setup
-from src.spektrankle_misc import compute_upsets, median_heuristic
-from gpytorch.kernels import RBFKernel
+from models.spektrankle_misc import compute_upsets, median_heuristic, train_test_split_random_seen_players
+from gpytorch.kernels import RBFKernel, ScaleKernel
 
 
 def extract_upsets(r, C):
@@ -28,7 +28,7 @@ def extract_upsets(r, C):
 seed_ls = [i for i in range(20)]
 year_ls = [2000 + i for i in range(19)]
 
-with open("../data/NFL_new/nfl_dict.pickle", "rb") as f:
+with open("../../data/NFL_new/nfl_dict.pickle", "rb") as f:
     nfl_dict = pickle.load(f)
 
 if __name__ == '__main__':
@@ -36,61 +36,63 @@ if __name__ == '__main__':
         for year in year_ls:
             np.random.seed(seed)
             C, X = nfl_dict[year]
-            C_train, C_test = train_test_split_C(C, train_ratio=0.7)
+
+            C_train, C_test = train_test_split_random_seen_players(C, X, split=0.7)
+            X_test = X
 
             d = X.shape[1]
-            k = RBFKernel(ard_num_dims=d)
-            k.lengthscalse = median_heuristic(X)
-            K = k(torch.tensor(X).float()).evaluate().detach().numpy()
-
-            C_train, C_test, _, _, X, X_test, final_ls = unseen_setup([C_train, C_to_choix_ls(C_train), C_test, X, K],
-                                                                      sparsity=0.7)
-
-            d = X.shape[1]
-            k = RBFKernel(ard_num_dims=d)
+            k = ScaleKernel(RBFKernel(ard_num_dims=d))
             k.lengthscalse = median_heuristic(X)
             K = k(torch.tensor(X).float()).evaluate().detach().numpy()
             K_test = k(torch.tensor(X), torch.tensor(X_test)).evaluate().detach().numpy().T
+            n_ = C_train.shape[0]
+            skew_symmetric_pad = np.triu(np.ones(n_)) - np.triu(np.ones(n_)).T
 
             # Result holder
             upset_train = dict()
             upset_test = dict()
 
             # SVDC
-            svdc = SVDRankerCov(C_train, X, verbose=False)
+            svdc = SVDRankerCov(C_train + 1e-4 * skew_symmetric_pad, X, verbose=False)
             svdc.fit()
             svdc_pred = svdc.predict(X_test)
 
             upset_train["svdc"] = extract_upsets(svdc.r, C_train)
-            upset_test["svdc"] = extract_upsets(svdc_pred, C_test)
+            upset_test["svdc"] = extract_upsets(svdc.r, C_test)
 
             # SVDN
-            svdn = SVDRankerNormal(C_train, verbose=False)
+
+            svdn = SVDRankerNormal(C_train + 1e-4 * skew_symmetric_pad, verbose=False)
             svdn.fit()
 
             upset_train["svdn"] = extract_upsets(svdn.r, C_train)
-            upset_test["svdn"] = 0
+            upset_test["svdn"] = extract_upsets(svdn.r, C_test)
 
             # SVDK
-            svdk = SVDRankerKCov(C_train, K, verbose=False)
+            svdk = SVDRankerKCov(C_train + 1e-4 * skew_symmetric_pad, K, verbose=False)
             svdk.fit()
             svdk_pred = svdk.predict(K_test)
 
             upset_train["svdk"] = extract_upsets(svdk.r, C_train)
-            upset_test["svdk"] = extract_upsets(svdk_pred, C_test)
+            upset_test["svdk"] = extract_upsets(svdk.r, C_test)
 
             # Serial
             serial = SerialRank(C_train, verbose=False)
             serial.fit()
 
             upset_train["serial"] = extract_upsets(serial.r, C_train)
-            upset_test["serial"] = 0
+            upset_test["serial"] = extract_upsets(serial.r, C_test)
 
             # C-Serial
             cserial = CSerialRank(C_train, K, 1e-1, verbose=False)
             cserial.fit()
-            upset_train["c-serial"] = extract_upsets(cserial.r, C_train)
-            upset_test["c-serial"] = 0
+
+            train_score = extract_upsets(cserial.r, C_train)
+
+            test_score = extract_upsets(cserial.r, C_test)
+
+            upset_train["c-serial"] = train_score
+            upset_test["c-serial"] = test_score
 
             # CCA Rank
             cca = CCARank(C_train, X, verbose=False)
@@ -111,7 +113,7 @@ if __name__ == '__main__':
             bt.fit()
 
             upset_train["BT"] = extract_upsets(bt.r, C_train)
-            upset_test["BT"] = 0
+            upset_test["BT"] = extract_upsets(bt.r, C_test)
 
             # BT Log Reg
             chx_ls = C_to_choix_ls(C_train)
@@ -132,6 +134,18 @@ if __name__ == '__main__':
             upset_train["pkrr"] = extract_upsets(f, C_train)
             upset_test["pkrr"] = extract_upsets(prefkrr.predict(K_test), C_test)
 
+            # DiffusionCentrality
+            dc = DiffusionRankCentrality(C_train, K)
+            dc.fit()
+            upset_train["dc"] = extract_upsets(dc.r, C_train)
+            upset_test["dc"] = extract_upsets(dc.r, C_test)
+
+            # DiffusionCentrality
+            rc = RankCentrality(C_train)
+            rc.fit()
+            upset_train["rc"] = extract_upsets(rc.r, C_train)
+            upset_test["rc"] = extract_upsets(rc.r, C_test)
+
             results = dict()
             results["year"] = year
             results["seed"] = seed
@@ -141,7 +155,7 @@ if __name__ == '__main__':
             print(results)
             print("\n")
 
-            job_name = 'NFL_Full_results'
+            job_name = 'NFL_Full_results_seen'
             if not os.path.exists(job_name):
                 os.makedirs(job_name)
 

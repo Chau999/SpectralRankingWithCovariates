@@ -1,8 +1,9 @@
 import torch
-from torch.nn import Sigmoid
 from gpytorch.kernels import RBFKernel
-from src.spektrankle_misc import median_heuristic, binarise
+from torch.nn import Sigmoid
 from torch.optim import Adam
+
+from models.spektrankle_misc import median_heuristic, binarise
 
 
 class PrefKRR(torch.nn.Module):

@@ -4,7 +4,8 @@ import h5py
 import joblib
 import numpy as np
 from scipy.linalg import eigh
-from src.spektrankle_misc import Compute_Sim, GraphLaplacian, Separate_Constraints
+
+from models.spektrankle_misc import GraphLaplacian
 
 __copyright__ = 'Copyright 2016, UC Berkeley, Gallant lab.'
 

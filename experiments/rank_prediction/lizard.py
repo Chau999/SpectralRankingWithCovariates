@@ -1,38 +1,37 @@
 import pickle
 import warnings
+
 warnings.filterwarnings("ignore")
 
 import sys
-sys.path.append("../")
 
-import itertools
+sys.path.append("../../")
+
 import os
 import numpy as np
 import torch
-from src.spektrankers import SVDRankerNormal, SVDRankerCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, CCARank, DiffusionRankCentrality, RankCentrality
-from src.spektrankle_misc import compute_upsets, median_heuristic, C_to_choix_ls, train_test_split_C, kendalltau_score
-from gpytorch.kernels import RBFKernel
-from src.simulation import Simulation
-from src.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
-from src.prefkrr import PreferentialKRR
+from src.spektrankers import SVDRankerNormal, SVDRankerCov, SVDRankerKCov, SerialRank, CSerialRank, KCCARank, CCARank
+from models.spektrankle_misc import C_to_choix_ls
+from models.baselines import BradleyTerryRanker, Pairwise_LogisticRegression
+from models.prefkrr import PreferentialKRR
 
-from src.load_experiments import FlatLizard, unseen_setup
-from src.spektrankle_misc import compute_upsets, median_heuristic
+from data.load_experiments import FlatLizard, unseen_setup
+from models.spektrankle_misc import compute_upsets, median_heuristic
 from gpytorch.kernels import RBFKernel, ScaleKernel
+
 
 def extract_upsets(r, C):
     a, b, _ = compute_upsets(r, C, verbose=False)
-    return max([a,b])
+    return max([a, b])
+
 
 seed_ls = [i for i in range(20)]
-
 
 if __name__ == '__main__':
     for seed in seed_ls:
         np.random.seed(seed)
-        C_train, choix_ls, C_test, X, K = FlatLizard(split=0.7)
 
-        X_test = X
+        C_train, C_test, _, _, X, X_test, _ = unseen_setup(FlatLizard(split=1), sparsity=0.7)
 
         d = X.shape[1]
         k = ScaleKernel(RBFKernel(ard_num_dims=d))
@@ -57,7 +56,7 @@ if __name__ == '__main__':
         svdn.fit()
 
         upset_train["svdn"] = extract_upsets(svdn.r, C_train)
-        upset_test["svdn"] = extract_upsets(svdn.r, C_test)
+        upset_test["svdn"] = 0
 
         # SVDK
         svdk = SVDRankerKCov(C_train, K, verbose=False)
@@ -72,19 +71,13 @@ if __name__ == '__main__':
         serial.fit()
 
         upset_train["serial"] = extract_upsets(serial.r, C_train)
-        upset_test["serial"] = extract_upsets(serial.r, C_test)
+        upset_test["serial"] = 0
 
         # C-Serial
-        # C-Serial Rank
         cserial = CSerialRank(C_train, K, 1e-1, verbose=False)
         cserial.fit()
-
-        train_score = extract_upsets(cserial.r, C_train)
-
-        test_score = extract_upsets(cserial.r, C_test)
-
-        upset_train["c-serial"] = train_score
-        upset_test["c-serial"] = test_score
+        upset_train["c-serial"] = extract_upsets(cserial.r, C_train)
+        upset_test["c-serial"] = 0
 
         # CCA Rank
         cca = CCARank(C_train, X, verbose=False)
@@ -105,7 +98,7 @@ if __name__ == '__main__':
         bt.fit()
 
         upset_train["BT"] = extract_upsets(bt.r, C_train)
-        upset_test["BT"] = extract_upsets(bt.r, C_test)
+        upset_test["BT"] = 0
 
         # BT Log Reg
         chx_ls = C_to_choix_ls(C_train)
@@ -126,23 +119,12 @@ if __name__ == '__main__':
         upset_train["pkrr"] = extract_upsets(f, C_train)
         upset_test["pkrr"] = extract_upsets(prefkrr.predict(K_test), C_test)
 
-        # DiffusionCentrality
-        dc = DiffusionRankCentrality(C_train, K)
-        dc.fit()
-        upset_train["dc"] = extract_upsets(dc.r, C_train)
-        upset_test["dc"] = extract_upsets(dc.r, C_test)
-
-        rc = RankCentrality(C_train)
-        rc.fit()
-        upset_train["rc"] = extract_upsets(rc.r, C_train)
-        upset_test["rc"] = extract_upsets(rc.r, C_test)
-
         results = [upset_train, upset_test]
 
         print(results)
         print("\n")
 
-        job_name = 'lizard_results_seen'
+        job_name = 'lizard_results'
         if not os.path.exists(job_name):
             os.makedirs(job_name)
 

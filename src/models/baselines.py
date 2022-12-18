@@ -1,16 +1,15 @@
-import numpy as np
 from abc import abstractmethod
 
 import numpy as np
 import pandas as pd
-
-from sklearn.linear_model import LogisticRegression
+from choix import ilsr_pairwise
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.gaussian_process import GaussianProcessClassifier
 from sklearn.gaussian_process.kernels import RBF, WhiteKernel
+from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
-from choix import ilsr_pairwise
-from src.spektrankle_misc import C_to_choix_ls
+
+from models.spektrankle_misc import C_to_choix_ls
 
 
 class Ranker(object):
@@ -45,6 +44,9 @@ class BradleyTerryRanker(Ranker):
         self.declare()
         choix_ls = C_to_choix_ls(self.C > 0)
         self.r = ilsr_pairwise(self.C.shape[0], choix_ls, alpha=.1)
+
+    def predict(self):
+        return ValueError("Bradley Terry Ranking cannot predict on unseen players")
 
 
 class Pairwise_LogisticRegression(object):
@@ -197,7 +199,7 @@ class Pairwise_GP(object):
         self.X = X
         self.choix_ls = choix_ls
         self.y_ls = y_ls
-        self.kernel = kernel = 1.0 * RBF(length_scale=1.0, length_scale_bounds=(1e-1, 1e1))
+        self.kernel = 1.0 * RBF(length_scale=1.0, length_scale_bounds=(1e-1, 1e1))
         self.gp = GaussianProcessClassifier(kernel=self.kernel)
 
     def fit(self):

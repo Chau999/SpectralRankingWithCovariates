@@ -8,9 +8,9 @@ from numpy.linalg import solve, eig, eigh, cholesky
 from scipy.linalg import eig
 from sklearn.cross_decomposition import CCA
 
-import src.rcca as rcca
-from src.spektrankle_misc import Compute_Sim, GraphLaplacian, binarise, median_heuristic
-from src.spektrankle_misc import centering_matrix, get_the_subspace_basis, \
+import models.rcca as rcca
+from models.spektrankle_misc import Compute_Sim, GraphLaplacian, binarise, median_heuristic
+from models.spektrankle_misc import centering_matrix, get_the_subspace_basis, \
     compute_upsets, invsqrtm_psd, extract_upsets
 
 
