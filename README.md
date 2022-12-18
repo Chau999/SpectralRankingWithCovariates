@@ -2,7 +2,8 @@
 
 This repository contains the code for the project **Spectral Ranking with Covariates**.
 
-
+- Learn how to install packages here!
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
 
 ### Algorithms and where to find them
 
