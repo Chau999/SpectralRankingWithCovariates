@@ -30,3 +30,16 @@ src/baselines.py
 └── Pairwise_LogisticRegression (Bradley Terry with logistic regressoin)
 
 ```
+
+The algorithms used in this repo came primarily out of the following papers. If you use them in your research we would appreciate a citation to our paper:
+```
+@inproceedings{chau2022spectral,
+  title={Spectral ranking with covariates},
+  author={Chau, Siu Lun and Cucuringu, Mihai and Sejdinovic, Dino},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={70--86},
+  year={2022},
+  organization={Springer}
+}
+```
+
